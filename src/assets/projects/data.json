@@ -1,0 +1,86 @@
+[
+    {
+        "category": "JAVA",
+        "nombre": "JAVA EE (JEE) Application + Docker",
+        "link": "https://carlosllano.github.io/b2bGinebra/",
+        "img": "https://user-images.githubusercontent.com/17281733/42716707-76656608-86c2-11e8-8058-5ed467427954.png"
+    },
+    {
+        "category": "JAVA",
+        "nombre": "Firma de archivos mediante esquema de clave pública",
+        "link": "https://carlosllano.github.io/FirmaDigital/",
+        "img": "https://user-images.githubusercontent.com/17281733/33253896-ee70a44a-d313-11e7-85ac-a6e444100403.png"
+    },
+    {
+        "category": "C#",
+        "nombre": "Gramática en FNC y algoritmo CYK",
+        "link": "https://carlosllano.github.io/GramaticaFNC/",
+        "img": "https://user-images.githubusercontent.com/17281733/42711956-6ef7b104-86af-11e8-95c0-c985740e24c6.png"
+    },
+    {
+        "category": "PYTHON",
+        "nombre": "Python + Flask + Swagger",
+        "link": "https://carlosllano.github.io/so-exam2/",
+        "img": "https://cloud.githubusercontent.com/assets/17281733/25769275/6ff972f2-31da-11e7-9b5a-b75d8030f792.jpeg"
+    },
+    {
+        "category": "VISUAL BASIC",
+        "nombre": "macro para realizar pronosticos de demanda",
+        "link": "https://www.youtube.com/watch?v=W7Zu8kcANko",
+        "img": "https://i.ytimg.com/vi/W7Zu8kcANko/maxresdefault.jpg"
+    },
+    {
+        "category": "KUBERNETES",
+        "nombre": "Introducción a Kubernetes",
+        "link": "https://carlosllano.github.io/sd-project/",
+        "img": "https://user-images.githubusercontent.com/17281733/33518870-778e4cf0-d76a-11e7-90bf-a83603cd8d29.PNG"
+    },
+    {
+        "category": "KUBERNETES, IBM CLOUD",
+        "nombre": "Acceso al api de kubernetes dentro de un pod",
+        "link": "https://carlosllano.github.io/kubernetes-api/",
+        "img": "https://www.ackstorm.com/wp-content/uploads/2015/09/kubernetes-3-e1503308637694.png"
+    },
+    {
+        "category": "VAGRANT + CHEF",
+        "nombre": "mariadb + httpd + haproxy",
+        "link": "https://carlosllano.github.io/sd-workshop1/",
+        "img": "https://i0.wp.com/www.igeni.us/wp-content/uploads/2017/10/vagrant_plus_chef.png?resize=800%2C397"
+    },
+    {
+        "category": "ELK (Elasticsearch, Logstash, Kibana) STACK + Vagrant",
+        "nombre": "Logs de httpd",
+        "link": "https://carlosllano.github.io/sd-exam1/",
+        "img": "https://user-images.githubusercontent.com/17281733/32708240-d2cc2994-c7f6-11e7-86d7-b6dce8746567.jpeg"
+    },
+    {
+        "category": "EFK (Elasticsearch, Fluentd, Kibana) STACK + Docker",
+        "nombre": "Logs de httpd",
+        "link": "https://carlosllano.github.io/sd-exam2/",
+        "img": "https://user-images.githubusercontent.com/17281733/32993611-9f8f3526-cd28-11e7-9c9f-3ed4313e8a15.png"
+    },
+    {
+        "category": "MONITOREO DE INFRAESTRUCTURA",
+        "nombre": "sensu + rabbitmq + redis + uchiwa + Slack + ELK Stack",
+        "link": "https://carlosllano.github.io/so-exam3/",
+        "img": "https://cloud.githubusercontent.com/assets/17281733/26524709/d072b494-4301-11e7-87d9-832437b4ef08.png"
+    },
+    {
+        "category": "DOCKER",
+        "nombre": "Descubrimiento de servicio con Consul",
+        "link": "https://carlosllano.github.io/sd-exam3",
+        "img": "https://user-images.githubusercontent.com/17281733/33510072-cda3607a-d6d5-11e7-98c7-03361caa8bb1.png"
+    },
+    {
+        "category": "LINUX",
+        "nombre": "comandos + LXC (Linux Containers)",
+        "link": "https://carlosllano.github.io/so-exam1/",
+        "img": "https://cloud.githubusercontent.com/assets/17281733/23805214/f79e2b2a-058a-11e7-8062-dd2eb66feb0b.png"
+    },
+    {
+        "category": "IBM CLOUD",
+        "nombre": "Acceso a IBM Object Storage sin token temporal",
+        "link": "https://carlosllano.github.io/IBMObjectStorage/",
+        "img": "https://user-images.githubusercontent.com/17281733/39014838-09cd44d0-43e1-11e8-8c53-f6fb17ce89d0.png"
+    }
+]
