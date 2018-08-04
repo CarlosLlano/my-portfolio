@@ -1,0 +1,68 @@
+// variables and mixins
+$primary-color: rgb(73, 160, 81);
+$secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url(../img/background.jpg);
+$backgroung-opacity: 0.5;
+
+//function (
+@mixin ease-out {
+    // ease-put - specifies a transition effect with a slow end
+    transition: all 0.5s ease-out;
+}
+
+@mixin background {
+    @if $show-home-image {
+        &#bg-img {
+            background: $home-image;
+            background-attachment: fixed;
+            background-size: cover;
+            &:after { //unvisible element
+                content: '';
+                position: absolute; //cover all body
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba($primary-color, $backgroung-opacity);
+                z-index: -1; //the higher the number the closer to you
+            }
+        }
+    }
+}
+
+// Set text color
+@function set-text-color($color){
+    @if(lightness($color) > 40){
+        @return black;
+    } 
+    @else{
+        @return white;
+    }
+} 
+
+// Media Query Mixins
+@mixin mediaSm {
+    //css only applied if screen is 500px or less
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+@mixin mediaMd {
+    //css only applied if screen is 500px or less
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+@mixin mediaLg {
+    //css only applied if screen is 500px or less
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+@mixin mediaXL {
+    //css only applied if screen is 500px or less
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
+}

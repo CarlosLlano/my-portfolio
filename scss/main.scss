@@ -1,0 +1,161 @@
+@import 'config';
+@import 'menu';
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    @include background();
+    background: $primary-color;
+    color: set-text-color($primary-color); 
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5
+}
+//heading
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+    &.lg-heading { //h1 h2 h3 identificado con lg-heading
+        font-size: 6rem; //1rem=16px
+    }
+    &.sm-heading {
+        margin-bottom: 2rem; //32px
+        padding: 0.2rem 1rem; //0.2 top botton 1 left right for background color
+        background: rgba(lighten($primary-color, 2), 0.5); //background color with transparency
+    }
+}
+
+//links
+a {
+    color: white;
+    text-decoration: none;
+}
+
+//header
+header {
+    position: fixed; //header always at the top (scrollmenu)
+    z-index: 2; //how close to you a element is
+    width: 100%;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+// Home page
+main {
+    padding: 4rem;
+    //height: 100%;
+    min-height: calc(100vh - 60px);
+
+    &#home { //any main with id home
+        overflow: hidden; //no scrollbars
+        h1 {
+            margin-top: 20vh; //20 slices above
+        }
+    }
+    .icons { //icons inside main tag
+        margin-top: 1rem;
+        a { //links inside icons
+            padding: 0.4rem;
+            &:hover {
+                color: $secondary-color;
+                @include ease-out(); //color highlighted retarded
+            }
+        }
+    }
+}
+// About me
+.bio-image {
+    margin: auto;
+    border-radius: 50%;
+    border: $secondary-color 3px solid;
+}
+.hr-description
+{
+    border-top: 2px $secondary-color solid;
+    width: "50%";
+}
+.resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+ //Contact me boxes
+.boxes {
+    // display: flex;
+    // flex-wrap: wrap; //when they do not fit move the content to other row
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div {
+        font-size: 2rem;
+        border: 3px white solid;
+        padding: 1.5rem 2.5rem; //top bottom 1.5rem left right 2.5rem
+        margin-bottom: 3rem;
+        text-align: center;
+        @include ease-out;
+        &:hover {
+            // padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+            span {
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
+}
+//Projects layout
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); //3 projects per row
+    grid-gap: 0.7rem;
+    img {
+        height: 220px;
+        width: 100%;
+        border: 3px white solid;
+
+        &:hover {
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include ease-out;
+        }
+    }
+}
+
+// Projects Button Styles
+.btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+
+.btn-dark{
+    @extend .btn;
+    background: darken($primary-color, 50);
+}
+.btn-light{
+    @extend .btn;
+    background: lighten($primary-color, 50);
+}
+
+
+#main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
+    height: 60px;
+}
+
+@import 'mobile';
