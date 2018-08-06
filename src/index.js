@@ -4,17 +4,17 @@ import ReactDOM from 'react-dom';
 //react material
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
-//react router
-import { BrowserRouter } from 'react-router-dom'
+
 //Application
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-
+//react router
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
-    </BrowserRouter>, 
+    </BrowserRouter>,
     document.getElementById('root'));
 registerServiceWorker();
