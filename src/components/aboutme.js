@@ -63,15 +63,15 @@ class AboutMe extends Component {
                 />
                 <hr className="hr-description"/>
                 <h2>Skills</h2>
-                <Skills skill="Java" level="100"/>
-                <Skills skill="C#" level="50"/>
-                <Skills skill="Python" level="50"/>
-                <Skills skill="Visual Basic" level="50"/>
-                <Skills skill="K8s" level="100"/>
-                <Skills skill="ELK" level="50"/>
-                <Skills skill="Docker" level="100"/>
-                <Skills skill="Linux" level="50"/>
-                <Skills skill="IBM Cloud" level="100"/>
+                <Skills skill="Java" level="100" levelName="Advanced"/>
+                <Skills skill="C#" level="50" levelName="Intermediate"/>
+                <Skills skill="Python" level="50" levelName="Intermediate"/>
+                <Skills skill="Visual Basic" level="50" levelName="Intermediate"/>
+                <Skills skill="K8s" level="100" levelName="Advanced"/>
+                <Skills skill="ELK" level="50" levelName="Intermediate"/>
+                <Skills skill="Docker" level="100" levelName="Advanced"/>
+                <Skills skill="Linux" level="50" levelName="Intermediate"/>
+                <Skills skill="IBM Cloud" level="100" levelName="Advanced"/>
             </Cell>
         </Grid>
         
