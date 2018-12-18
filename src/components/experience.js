@@ -7,9 +7,14 @@ class Experience extends Component {
             <Grid>
                 <Cell col={4}>
                     <p>{this.props.startYear} - {this.props.endYear}</p>
+                    <p>{this.props.location}</p>
                 </Cell>
                 <Cell col={8}>
-                    <h4 style={{marginTop: '0px'}}>{this.props.company}</h4>
+                    <a href={this.props.url}>
+                        <h4 style={{marginTop: '0px', textDecorationLine: 'underline'}}>
+                            {this.props.company}
+                        </h4>
+                    </a>
                     <h6>{this.props.jobName}</h6>
                     <p>{this.props.jobDescription}</p>
                 </Cell>

@@ -82,5 +82,11 @@
         "nombre": "Acceso a IBM Object Storage sin token temporal",
         "link": "https://carlosllano.github.io/IBMObjectStorage/",
         "img": "https://user-images.githubusercontent.com/17281733/39014838-09cd44d0-43e1-11e8-8c53-f6fb17ce89d0.png"
+    },
+    {
+        "category": "KUBERNETES, IBM CLOUD",
+        "nombre": "MySQL Cluster en Kubernetes",
+        "link": "https://carlosllano.github.io/k8s-mysql-replicas/",
+        "img": "https://user-images.githubusercontent.com/17281733/50064661-67c64700-0180-11e9-85b3-adfe728a9b2f.png"
     }
 ]

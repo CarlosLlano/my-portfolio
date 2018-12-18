@@ -23,7 +23,7 @@ class Contact extends Component {
                             <span class="text-secondary">Mobile: </span>(+57)3166279150
                         </div>
                         <div>
-                            <span class="text-secondary">Location: </span>Cali, Colombia
+                            <span class="text-secondary">Location: </span>Medellín, Colombia
                         </div>
                     </div>
                 </main>

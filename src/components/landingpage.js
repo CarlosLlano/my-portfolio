@@ -10,10 +10,13 @@ class LandingPage extends Component {
           <h1 className="lg-heading">
             Carlos <span className="text-secondary">Llano</span>
           </h1>
-          <h2 className="sm-heading">Software Engineer</h2>
+          <h2 className="sm-heading">Software Engineer & Industrial Engineer</h2>
           <div className="icons">
             <a href="https://www.linkedin.com/in/carlosllanolozano/">
               <i className="fab fa-linkedin fa-3x" />
+            </a>
+            <a href="https://www.facebook.com/carlos.llanolozano">
+              <i className="fab fa-facebook fa-3x" />
             </a>
             <a href="https://github.com/CarlosLlano">
               <i className="fab fa-github fa-3x" />
