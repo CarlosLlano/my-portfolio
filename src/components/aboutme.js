@@ -74,7 +74,7 @@ class AboutMe extends Component {
                     url='https://www.globant.com/'
                     company='Globant' 
                     jobName='Software Developer' 
-                    jobDescription="Developing java-based applications for clients in the airline industry."
+                    jobDescription="Developing java-based applications for clients in the airline and banking industry."
                 />
                 <hr className="hr-description"/>
                 <h2>Skills</h2>
